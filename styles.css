@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+  height: 4rem;
+}
+
+.height {
+  min-height: 110vh;
+}
+
+.nav-headings {
+  font-size: 0.9rem;
+  color: black;
+}
+
+#header-changing-text {
+  font-size: 2rem;
+}
+
+#cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#unicorn-section {
+  background-color: #0d2234;
+}
+
+#unicorn-image {
+  width: 20rem;
+}

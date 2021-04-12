@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VentureDrive: Software Development & Product Design Partner</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="icon" href="./Images/logo.png" type="image/icon type" />
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top">
+      <img src="./Images/logo.png" alt="logo" class="img-fluid" id="logo" />
+      <a class="navbar-brand font-weight-bold" href="#"> VentureDrive</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav-headings">
+          <li class="nav-item dropdown mr-4">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="dropdownId"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Services</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Action 1</a>
+              <a class="dropdown-item" href="#">Action 2</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown mr-4">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="dropdownId"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Industries</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Mobility & logistics</a>
+              <a class="dropdown-item" href="#">On-demand services</a>
+              <a class="dropdown-item" href="#">Financial services</a>
+              <a class="dropdown-item" href="#">Healthcare</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown mr-4">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="dropdownId"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Platforms</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Salesforce</a>
+              <a class="dropdown-item" href="#">Amazon Web Services</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown mr-4">
+            <a
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              id="dropdownId"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Products</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#"
+                >Movanos: Delivery Management
+                <span class="bg-danger text-white rounded p-1"
+                  ><small>Featured</small></span
+                ></a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item mr-4">
+            <a class="nav-link text-dark" href="#">Clients</a>
+          </li>
+
+          <li class="nav-item mr-4">
+            <a class="nav-link text-dark" href="#">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <button class="btn btn-outline-danger px-2.1 py-1.5 mr-3">
+              <small>Get a quote</small>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="header" class="bg-light">
+      <div class="container">
+        <div class="row height justify-content-center align-items-center">
+          <div class="col text-center">
+            <p class="display-4 font-weight-bold">
+              Turn ideas into revolutionary<br />products & services
+              <br />
+              <span id="header-changing-text" class="font-weight-light"
+                >through
+                <span class="text-danger"
+                  >technology<span id="cursor" class="text-dark">|</span></span
+                ></span
+              >
+            </p>
+
+            <button type="button" class="btn btn-danger mt-5 px-3 py-2">
+              Get a quote
+            </button>
+
+            <p class="m-5">
+              From ideation to delivery, we build next-gen software solutions
+              that <br />
+              drive innovation and social impact.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="unicorn-section" class="py-4">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6">
+            <img
+              src="./Images/unicorn.png"
+              alt="unicorn"
+              class="img-fluid"
+              id="unicorn-image"
+            />
+          </div>
+
+          <div class="col-12 col-md-6 text-white">
+            <h2 class="font-weight-bold">
+              Unicorns are real.<br />We've helped create them.
+            </h2>
+            <p class="mt-5">
+              Organizations we’ve worked with have raised more than $1 Billion
+              in seed money, improving lives worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="long-section" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h6>CAREEM</h6>
+            <p>
+              Moving people through an e-hail service platform where Riders &
+              Captains can functionally interact
+            </p>
+            <a
+              href="#"
+              class="border border-danger rounded-circle p-1 text-danger"
+              >></a
+            >
+            Case Study
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./Images/car.png" alt="" class="w-100" />
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6">
+            <img src="./Images/gps.png" alt="" class="w-100" />
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <h6>ISLAMIC FINDER</h6>
+            <p>
+              Connecting Muslims globally via a mobile app for accurate prayer
+              times, Quran, Athan & more
+            </p>
+            <a
+              href="#"
+              class="border border-danger rounded-circle p-1 text-danger"
+              >></a
+            >
+            Case Study
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6">
+            <h6>TEZ FINANCIAL SERVICES</h6>
+            <p>
+              Enabling access to instant cash through technology for financial
+              inclusion
+            </p>
+            <a
+              href="#"
+              class="border border-danger rounded-circle p-1 text-danger"
+              >></a
+            >
+            Case Study
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./Images/amount.png" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="business" class="bg-primary py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6">
+            <p>WHAT WE DO</p>
+            <h2>Find that sweet spot to grow your business</h2>
+            <p>
+              We’re engineers, designers, and entrepreneurs. This holy trinity
+              enables us to find the sweet spot of customer delight, resulting
+              in exponential value & business growth.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./Images/grapg.png" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach" class="py-5">
+      <div class="container">
+        <div class="row height align-items-center justify-content-center">
+          <div class="col-12 col-md-6">
+            <p>OUR APPROACH</p>
+            <h2>Our ‘lean startup’ approach helps augment innovation</h2>
+            <p>
+              From understanding your customers & business challenges to
+              developing your software & taking it to market in the shortest
+              possible time, we personalize how we work to fit your project
+              needs.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-3">
+            <div class="card card-body text-center">
+              <h2 class="card-title">Build a functional prototype in 48 hrs</h2>
+              <p class="card-text">Idea validation</p>
+              <p class="card-text">User & stakeholder feedback</p>
+              <p class="card-text">Envisioning of final product</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-body text-center">
+              <h2 class="card-title">Create an MVP within 2 weeks</h2>
+              <p class="card-text">GTM in record time</p>
+              <p class="card-text">Idea validation with real users</p>
+              <p class="card-text">Test new features</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-body text-center">
+              <h2 class="card-title">Kickstart software development</h2>
+              <p class="card-text">Excellent code quality</p>
+              <p class="card-text">Proactive teams</p>
+              <p class="card-text">On-time delivery</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-body text-center">
+              <h2 class="card-title">Get 24/7 tech & business support</h2>
+              <p class="card-text">Real-time support</p>
+              <p class="card-text">Connect with relevant experts</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 mx-auto">
+            <button type="button" class="btn btn-danger my-5">
+              Read our success stories
+            </button>
+          </div>
+        </div>
+
+        <div class="row"></div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">Awards & recognition</div>
+          <div class="col-12 mx-auto text-center">
+            <div id="awards" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#awards" data-slide-to="0" class="active"></li>
+                <li data-target="#awards" data-slide-to="1"></li>
+                <li data-target="#awards" data-slide-to="2"></li>
+                <li data-target="#awards" data-slide-to="3"></li>
+              </ul>
+
+              <div class="carousel-innner">
+                <div class="carousel-item active">
+                  <img
+                    src="./Images/award1.PNG"
+                    alt="award"
+                    class="d-block w-100"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="./Images/award2.PNG"
+                    alt="award"
+                    class="d-block w-100"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="./Images/award3.PNG"
+                    alt="award"
+                    class="d-block w-100"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="./Images/award4.PNG"
+                    alt="award"
+                    class="d-block w-100"
+                  />
+                </div>
+              </div>
+
+              <a href="#awards" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#awards" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
